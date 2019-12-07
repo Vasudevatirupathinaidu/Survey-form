@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(to left, #c3e79c , #67b5f5);
+    text-align: center;
+    min-width: 300px;
+}
+#title {
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+    color: white;
+}
+#back {
+    font-family: Abel, serif;
+    font-size: 1.1em;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to left, #ee8467 , #ebb263);
+    color: rgb(36, 35, 35);
+}
+.left {
+    display: inline-block;
+    font-weight: bold;
+    opacity: 0.8;
+    padding: 5px;
+    width: 40%;
+    text-align: right;
+    margin-top: 10px;
+}
+.right {
+    display: inline-block;
+    font-weight: bold;
+    opacity: 0.7;
+    width: 50%;
+    vertical-align: middle;
+    text-align: left;
+}
+.field {
+    border: 1px solid #464747;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px;
+    width: 280px;
+    height: 30px;
+}
+#dropdown {
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #464747;
+    border-radius: 2px;
+}
+.radio-list, .checkbox-list {
+    position: relative;
+    right: 45px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+#submit {
+    background-color: #17abe6;
+    border: 1px solid #464747;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 35px;
+    width: 80px;
+    margin: 15px;
+}
+#submit:hover {
+    background-color: #50bae4;
+}
+@media only screen and (max-width: 840px) {
+    .field {
+    width: 80%;
+    }
+    select {
+    width: 90%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .left {
+    width: 100%;
+    text-align: left;
+    }
+    .right {
+    width: 70%;
+    float: left;
+    }
+    .field {
+    width: 100%;
+    }
+    select {
+    width: 100%;
+    }
+}
